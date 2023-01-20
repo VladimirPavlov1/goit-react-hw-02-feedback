@@ -10,6 +10,6 @@ export const Section =({title,children})=>{
 
 Section.propTypes={
     title:PropTypes.string.isRequired,
-    children:PropTypes.element,
+    children:PropTypes.node.isRequired,
 
 }
